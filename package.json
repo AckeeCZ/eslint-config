@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ackee",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "ESLint config for Ackee javascript developers",
   "main": "index.js",
   "license": "MIT",
