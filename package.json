@@ -1,0 +1,10 @@
+{
+  "name": "eslint-config-ackee",
+  "version": "1.0.0",
+  "description": "ESLint config for Ackee javascript developers",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "eslint-config-airbnb": "15"
+  }
+}
