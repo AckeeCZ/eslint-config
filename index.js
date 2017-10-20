@@ -34,33 +34,6 @@ module.exports = {
 
         // https://eslint.org/docs/rules/indent
         "indent": ["warn", 4],
-        
-        /** TO DECIDE
-         * - frontend set "unix" meanwhile backend set the rule off
-         * - airbnb agrees with FE
-         */
-        // https://eslint.org/docs/rules/linebreak-style
-        "linebreak-style": [ "error", "unix"],
-
-        // ==============================================================
-
-        /** TO DECIDE
-         * - I woud turn it off on per file basis if necessary
-         */
-        // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/prefer-default-export.md
-        "import/prefer-default-export": "off",
-
-        /** TO DECIDE
-         * - In my opinion, it's valid rule and I would keep it in config
-         */
-        // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-static-element-interactions.md
-        "jsx-a11y/no-static-element-interactions": "off",
-
-        /** TO DECIDE
-         * I would turn it off on per file basis if necessary
-         */
-        // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-prop-types.md
-        "react/forbid-prop-types": "off",
 
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent.md
         "react/jsx-indent": ["error", 4],
@@ -72,18 +45,6 @@ module.exports = {
         
         // https://eslint.org/docs/rules/no-var        
         "no-var": "warn",
-
-        /** TO DECIDE
-         * - do we need dangle underscores? I would kept the rule
-         */
-        // https://eslint.org/docs/rules/no-underscore-dangle
-        "no-underscore-dangle": "off",
-        
-        /** TO DECIDE
-         * - why we need to have this turned off? I would kept it
-         */
-        // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md
-        "import/no-unresolved": "off",
         
         // https://eslint.org/docs/rules/max-len
         "max-len": [
@@ -100,11 +61,16 @@ module.exports = {
         // https://eslint.org/docs/rules/new-cap
         "new-cap": "warn",
 
-        /** TO DECIDE
-         * Why both off?
+        /** 
+         * REASON: possible changes. When someone reduce number of arguments from 2 to 1, we
+         * donn't want to force him remove parens.
          */
         // https://eslint.org/docs/rules/arrow-parens
         "arrow-parens": "off",
+
+        /**
+         * REASON: Similar to "arrow-parens" reason.
+         */
         // https://eslint.org/docs/rules/arrow-body-style
         "arrow-body-style": "off",
         
@@ -117,12 +83,6 @@ module.exports = {
         // https://eslint.org/docs/rules/prefer-const
         "prefer-const": "warn",
 
-        /** TO DECIDE
-         * Why off? We dont want a curly spacing style. If it's true, It would be better to have "never"
-         */
-        // https://eslint.org/docs/rules/object-curly-spacing
-        "object-curly-spacing": "off",
-
         // https://eslint.org/docs/rules/func-names
         "func-names": "off",
 
@@ -132,38 +92,19 @@ module.exports = {
         // https://eslint.org/docs/rules/no-console
         "no-console": "error",
 
-        /** TO DECIDE
-         * Any trouble with arrow function? Is it because of generators?
-         */
-        // https://eslint.org/docs/rules/prefer-arrow-callback
-        "prefer-arrow-callback": "off",
-
         // https://eslint.org/docs/rules/no-warning-comments
         "no-warning-comments": "warn",
 
         /** TO DECIDE
-         * I agree with keeping it turned off
          */
         // https://eslint.org/docs/rules/no-warning-comments
         "no-param-reassign": "off",
 
-        /** TO DECIDE
-         * - exceptions?
-         */
         // https://eslint.org/docs/rules/spaced-comment
-        "spaced-comment": [
-            "error", 
-            "always",
-            {
-                "exceptions": [
-                    "region Winston",
-                    "endregion"
-                ]
-            }
-        ],
+        "spaced-comment": ["error", "always"],
 
         /** TO DECIDE
-         * - really?
+         * JSm:  It's more clear (for us) when you first see what function does and then how it's implemented 
          */
         // https://eslint.org/docs/rules/no-use-before-define
         "no-use-before-define": "off",
@@ -174,7 +115,7 @@ module.exports = {
         "jsx-a11y/img-has-alt": "off",
 
         /**
-         * Deprecated
+         * @deprecated
          * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-space-before-closing.md
          */
         "react/jsx-space-before-closing": "off",
