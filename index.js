@@ -1,34 +1,17 @@
 module.exports = {
     env: {
-        "node": true,
-        "browser": true,
         "es6": true,
-        "jest/globals": true,
-        "mocha": true        
     },
     extends: [
         "airbnb"
     ],
-    /* FRONTEND SETTINGS */
-    parser: "babel-eslint",
-    parserOptions: {
-        "ecmaFeatures": {
-            "experimentalObjectRestSpread": true,
-            "jsx": true
-        },
-        "sourceType": "module"
-    },
-    plugins: [
-        "jest"
-    ],
-    /* END FRONTEND SETTINGS */
-
     rules: {
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-extraneous-dependencies.md
         "import/no-extraneous-dependencies": "off",
        
         /**
-         * Seems Deprecated
+         * Deprecated in jsx-a11y@6, see https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/CHANGELOG.md
+         * and replace it with anchor-is-valid when upgrade jsx-a11y 
          */
         "jsx-a11y/href-no-hash": "off",
 
@@ -40,8 +23,6 @@ module.exports = {
 
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent-props.md
         "react/jsx-indent-props": ["error", 4],
-
-        // =================================================================
         
         // https://eslint.org/docs/rules/no-var        
         "no-var": "warn",
@@ -95,7 +76,8 @@ module.exports = {
         // https://eslint.org/docs/rules/no-warning-comments
         "no-warning-comments": "warn",
 
-        /** TO DECIDE
+        /** 
+         * TO DECIDE
          */
         // https://eslint.org/docs/rules/no-warning-comments
         "no-param-reassign": "off",
@@ -103,22 +85,15 @@ module.exports = {
         // https://eslint.org/docs/rules/spaced-comment
         "spaced-comment": ["error", "always"],
 
-        /** TO DECIDE
+        /** 
+         * TO DECIDE
          * JSm:  It's more clear (for us) when you first see what function does and then how it's implemented 
          */
         // https://eslint.org/docs/rules/no-use-before-define
         "no-use-before-define": "off",
 
-        /**
-         * Seems depreacted
-         */
+         // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/v5.1.1/docs/rules/alt-text.md
         "jsx-a11y/img-has-alt": "off",
-
-        /**
-         * @deprecated
-         * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-space-before-closing.md
-         */
-        "react/jsx-space-before-closing": "off",
 
         // https://eslint.org/docs/rules/comma-dangle
         "comma-dangle": [
