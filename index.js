@@ -16,7 +16,13 @@ module.exports = {
         "jsx-a11y/href-no-hash": "off",
 
         // https://eslint.org/docs/rules/indent
-        "indent": ["warn", 4],
+        "indent": [
+            "error", 
+            4,
+            {
+                "SwitchCase": 1
+            }
+        ],
 
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent.md
         "react/jsx-indent": ["error", 4],
