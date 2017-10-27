@@ -111,6 +111,9 @@ module.exports = {
                 "exports": "ignore",
                 "functions": "ignore"
             }
-        ]
+        ],
+
+        // https://eslint.org/docs/rules/no-return-assign
+        "no-return-assign": ["error", "except-parens"]
     }
 }
