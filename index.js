@@ -82,19 +82,12 @@ module.exports = {
         // https://eslint.org/docs/rules/no-warning-comments
         "no-warning-comments": "warn",
 
-        /** 
-         * TO DECIDE
-         */
         // https://eslint.org/docs/rules/no-warning-comments
         "no-param-reassign": "off",
 
         // https://eslint.org/docs/rules/spaced-comment
         "spaced-comment": ["error", "always"],
 
-        /** 
-         * TO DECIDE
-         * JSm:  It's more clear (for us) when you first see what function does and then how it's implemented 
-         */
         // https://eslint.org/docs/rules/no-use-before-define
         "no-use-before-define": "off",
 

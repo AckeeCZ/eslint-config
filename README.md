@@ -64,3 +64,6 @@ Rules
 * [no-shadow](https://eslint.org/docs/rules/no-shadow)
 * [object-curly-spacing](https://eslint.org/docs/rules/object-curly-spacing)
 * [no-unused-expressions](https://eslint.org/docs/rules/no-unused-expressions)
+* [no-param-reassign](https://eslint.org/docs/rules/no-warning-comments)
+* [no-use-before-define](https://eslint.org/docs/rules/no-use-before-define) - JSm:  It's more clear (for us) when you first see what function does and then how it's implemented 
+        
