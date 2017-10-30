@@ -16,7 +16,7 @@ Create `.eslintrc` in your project:
 ```json
 {
     "env": {
-        "browser": true,
+        "browser": true
     },
     "extends": [
         "ackee"
