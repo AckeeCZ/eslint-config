@@ -114,6 +114,12 @@ module.exports = {
         ],
 
         // https://eslint.org/docs/rules/no-return-assign
-        "no-return-assign": ["error", "except-parens"]
+        "no-return-assign": ["error", "except-parens"],
+
+        /**
+         * REASON: democratic election, see https://gitlab.ack.ee/Web-public/eslint-config-ackee/issues/3
+         */
+        // https://eslint.org/docs/rules/no-plusplus
+        "no-plusplus": "off"
     }
 }
