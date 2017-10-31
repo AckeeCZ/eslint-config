@@ -113,6 +113,13 @@ module.exports = {
          * REASON: democratic election, see https://gitlab.ack.ee/Web-public/eslint-config-ackee/issues/3
          */
         // https://eslint.org/docs/rules/no-plusplus
-        "no-plusplus": "off"
+        "no-plusplus": "off",
+
+        /**
+         * REASON: We don't want to use some specific constructs, eg. for...of
+         */
+        // https://eslint.org/docs/rules/no-restricted-syntax
+        "no-restricted-syntax": "off"
+        
     }
 }
