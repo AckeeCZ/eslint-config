@@ -6,10 +6,7 @@ ESLint rules and settings common for Ackee javascript developers.
 How to use
 ----------
 
-Install it `yarn add -D git+ssh://git@gitlab.ack.ee/Web/eslint-config-ackee#master`
-
-> Note: It hasn't been published to NPM registry yet, so we need to install with `git+ssh` protocol, after publish
->  the installation command change become simpler.
+Install it `yarn add -D eslint-config-ackee`
 
 Create `.eslintrc` in your project:
 
