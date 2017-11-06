@@ -119,7 +119,12 @@ module.exports = {
          * REASON: We don't want to use some specific constructs, eg. for...of
          */
         // https://eslint.org/docs/rules/no-restricted-syntax
-        "no-restricted-syntax": "off"
+        "no-restricted-syntax": "off",
+        /**
+         * REASON: For static arrays that don't change in time it's safe to use array indexes
+         *  as a keys and we don't want failed build because of that
+         */
+        "react/no-array-index-key": "warn",
         
     }
 }
