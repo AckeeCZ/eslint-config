@@ -125,6 +125,14 @@ module.exports = {
          *  as a keys and we don't want failed build because of that
          */
         "react/no-array-index-key": "warn",
-        
+
+        /**
+         * REASON: democratic election, see https://gitlab.ack.ee/Web-public/eslint-config-ackee/issues/8
+         */
+        "no-unused-expressions": ["warn", {
+            allowShortCircuit: true,
+            allowTernary: true,
+            allowTaggedTemplates: false,
+          }],
     }
 }
