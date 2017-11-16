@@ -79,10 +79,13 @@ module.exports = {
         // https://eslint.org/docs/rules/no-console
         "no-console": "error",
 
+        /**
+         * REASON: democratic election, see https://gitlab.ack.ee/Web-public/eslint-config-ackee/issues/10
+         */
         // https://eslint.org/docs/rules/no-warning-comments
         "no-warning-comments": "warn",
 
-        // https://eslint.org/docs/rules/no-warning-comments
+        // https://eslint.org/docs/rules/param-reassign
         "no-param-reassign": "off",
 
         // https://eslint.org/docs/rules/spaced-comment

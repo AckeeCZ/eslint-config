@@ -58,6 +58,5 @@ Rules
 
 **To discuss**
 
-* [no-param-reassign](https://eslint.org/docs/rules/no-warning-comments)
 * [no-use-before-define](https://eslint.org/docs/rules/no-use-before-define) - JSm:  It's more clear (for us) when you first see what function does and then how it's implemented 
         
