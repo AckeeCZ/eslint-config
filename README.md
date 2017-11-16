@@ -58,5 +58,4 @@ Rules
 
 **To discuss**
 
-* [no-use-before-define](https://eslint.org/docs/rules/no-use-before-define) - JSm:  It's more clear (for us) when you first see what function does and then how it's implemented 
-        
+You can find current rules to discuss at [gitlab issues](https://gitlab.ack.ee/Web/eslint-config-ackee/issues) page.

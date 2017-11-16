@@ -91,8 +91,11 @@ module.exports = {
         // https://eslint.org/docs/rules/spaced-comment
         "spaced-comment": ["error", "always"],
 
+        /**
+         * REASON: democratic election, see https://gitlab.ack.ee/Web-public/eslint-config-ackee/issues/9
+         */
         // https://eslint.org/docs/rules/no-use-before-define
-        "no-use-before-define": "off",
+        "no-use-before-define": "warn",
 
          // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/v5.1.1/docs/rules/alt-text.md
         "jsx-a11y/img-has-alt": "off",
@@ -123,6 +126,7 @@ module.exports = {
          */
         // https://eslint.org/docs/rules/no-restricted-syntax
         "no-restricted-syntax": "off",
+        
         /**
          * REASON: For static arrays that don't change in time it's safe to use array indexes
          *  as a keys and we don't want failed build because of that
