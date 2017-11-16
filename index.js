@@ -133,6 +133,11 @@ module.exports = {
             allowShortCircuit: true,
             allowTernary: true,
             allowTaggedTemplates: false,
-          }],
+        }],
+
+        /**
+         * REASON: democratic election, see https://gitlab.ack.ee/Web-public/eslint-config-ackee/issues/7
+         */
+        "object-curly-spacing": ["warn", "always"],
     }
 }
