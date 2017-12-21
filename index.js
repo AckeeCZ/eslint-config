@@ -146,5 +146,8 @@ module.exports = {
          * REASON: democratic election, see https://gitlab.ack.ee/Web-public/eslint-config-ackee/issues/7
          */
         "object-curly-spacing": ["warn", "always"],
+        
+        // https://eslint.org/docs/rules/curly
+        "curly": "all",
     }
 }
