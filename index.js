@@ -148,6 +148,6 @@ module.exports = {
         "object-curly-spacing": ["warn", "always"],
         
         // https://eslint.org/docs/rules/curly
-        "curly": "all",
+        "curly": ["warn", "all"],
     }
 }
