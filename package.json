@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-ackee",
   "author": "Lukáš Horák <horaklukas@centrum.cz>",
-  "version": "0.8.1",
+  "version": "0.9.0",
   "description": "ESLint config for Ackee javascript developers",
   "main": "index.js",
   "license": "MIT",
