@@ -149,5 +149,10 @@ module.exports = {
         
         // https://eslint.org/docs/rules/curly
         "curly": ["warn", "all"],
+        
+        /**
+         * REASON: https://ackee.slack.com/archives/C07BZ9K32/p1536067640000100
+         */
+        "import/prefer-default-export": "off"
     }
 }
