@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - 8
+deploy:
+  provider: npm
+  email: ackeedevelopment@gmail.com
+  skip_cleanup: true
+  api_key:
+    secure: PfV3TqznaSvH1iGQogNOnYQmtEO/yhTuvkES/ULoj+jSHTecE+GH26ILYQeQkfr+bsKl6oInufj9PWTdnDtDv3cb/le7sIyBeKmc7iI3kgqgCWDsPUFcOr74rueotp6TI/C9bsrig4oUjy8FaosQ9E8HeiPlRXfWb86fYdIZUAW9KL5tzyY6mdfuyT421e5FfwNM6xlwstuivPpaBbf+OdYsHxa2QNXGtnWrdX3DfLKxJQZ1rFlHdLDlykBTsKlGPSL3k3BjtJdZ+5xTKrHEiAq+Ov+rbYGq5hNIuCDZGjS743i3SEVwPVjwLGZebZRkVj3TTta7Fh8Xs+0xWG+KtafXspv298D/ltiDS2QCSCCzoxTnrkXOfoJZubKyLjnZ6cdNC3hfdT3MGAZtVUa44SVedgqgtgi9bWKIO5kyfN6MO3Zhq0EuXm2i4IfzsW9fZkmgtFA47ZAmaTY0lc1vUWFzqZO1N2pZHjuLgrVM3NuYt0h5GjTwSMwKMP8FvQaGIqzUTPloTXSR6eE96ryHewTbNNW9zrI1qu5mVc8YpfaOAQoaUF5NkkVaZf9Ov4OJ1aJ/PR8GgJmJsAi7MjQ3ZdDUcIZFiUCW2pGN+skN2gGbJg1UzgS2Mw6lyYb5+938gBwj7X4JTpX7/tQ6KqOXwS0WNLqSTNUxqK153zgqaXA=
+  on:
+    tags: true
+    repo: AckeeCZ/eslint-config-ackee
