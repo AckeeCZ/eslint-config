@@ -3,7 +3,9 @@ name: A rule change proposal
 about: A change proposal of an ESLint rule.
 title: Update of the {rule name} ESLint rule
 labels: change proposal
-assignees: cermakjiri
+assignees:
+  horaklukas, jancama2, stefan-prokop-cz, baierjak, vlasy, jstorm31, jiri-smolik,
+  grissius, cermakjiri
 ---
 
 # [rule-name](https://eslint.org/docs/rules/rule-name)
