@@ -1,14 +1,24 @@
 {
-  "name": "eslint-config-ackee",
-  "author": "Lukáš Horák <horaklukas@centrum.cz>",
-  "version": "0.9.0",
-  "description": "ESLint config for Ackee javascript developers",
-  "main": "index.js",
-  "license": "MIT",
-  "dependencies": {
-    "eslint-config-airbnb": "^15",
-    "eslint-plugin-import": "^2.7",
-    "eslint-plugin-jsx-a11y": "^5",
-    "eslint-plugin-react": "^7"
-  }
+	"name": "eslint-config-ackee",
+	"author": "Lukáš Horák <horaklukas@centrum.cz>",
+	"version": "0.9.0",
+	"description": "ESLint config for Ackee javascript developers",
+	"main": "index.js",
+	"license": "MIT",
+	"dependencies": {
+		"eslint-config-airbnb": "^17",
+		"eslint-plugin-import": "^2.7",
+		"eslint-plugin-jsx-a11y": "^6",
+		"eslint-plugin-react": "^7"
+	},
+	"bugs": {
+		"url": "https://github.com/AckeeCZ/eslint-config-ackee/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/AckeeCZ/eslint-config-ackee"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }
