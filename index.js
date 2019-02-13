@@ -72,7 +72,14 @@ module.exports = {
         'func-names': 'off',
 
         // https://eslint.org/docs/rules/space-before-function-paren
-        'space-before-function-paren': ['error', 'never'],
+        'space-before-function-paren': [
+            'error',
+            {
+                'anonymous': 'never',
+                'named': 'never',
+                'asyncArrow': 'always'
+            }
+        ],
 
         // https://eslint.org/docs/rules/no-console
         'no-console': 'error',
