@@ -75,10 +75,10 @@ module.exports = {
         'space-before-function-paren': [
             'error',
             {
-                'anonymous': 'never',
-                'named': 'never',
-                'asyncArrow': 'always'
-            }
+                anonymous: 'never',
+                named: 'never',
+                asyncArrow: 'always',
+            },
         ],
 
         // https://eslint.org/docs/rules/no-console
@@ -147,5 +147,12 @@ module.exports = {
          * REASON: https://ackee.slack.com/archives/C07BZ9K32/p1536067640000100
          */
         'import/prefer-default-export': 'off',
+
+        /**
+         * REASON: In case of using custom NODE_PATH (common case for backend or frontend (create-react-app)) linter doesn't recognize
+         *  the path and complains about unresolved paths.
+         */
+        // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md
+        'import/no-unresolved': 'off',
     },
 };
