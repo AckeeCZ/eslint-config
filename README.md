@@ -1,6 +1,6 @@
 ![ackee|@ackee/eslint-config](assets/ackee_git_fronted_eslint.png)
 
-# [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/AckeeCZ/eslint-config/blob/master/LICENSE) [![CI Status](https://img.shields.io/travis/com/AckeeCZ/eslint-config.svg?style=flat)](https://travis-ci.com/AckeeCZ/@ackee/eslint-config) [![Dependency Status](https://img.shields.io/david/AckeeCZ/eslint-config.svg?style=flat-square)](https://david-dm.org/AckeeCZ/eslint-config)
+# [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/AckeeCZ/eslint-config/blob/master/LICENSE) [![CI Status](https://img.shields.io/travis/com/AckeeCZ/eslint-config.svg?style=flat)](https://travis-ci.com/AckeeCZ/eslint-config) [![Dependency Status](https://img.shields.io/david/AckeeCZ/eslint-config.svg?style=flat-square)](https://david-dm.org/AckeeCZ/eslint-config)
 
 # ESLint config Ackee
 
