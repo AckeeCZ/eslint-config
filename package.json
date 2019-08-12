@@ -1,5 +1,5 @@
 {
-    "name": "eslint-config-ackee",
+    "name": "@ackee/eslint-config",
     "author": "Lukáš Horák <horaklukas@centrum.cz>",
     "contributors": [
         "Jiří Čermák <jiri.cermak@ackee.cz>"
@@ -9,7 +9,7 @@
     "main": "index.js",
     "license": "MIT",
     "dependencies": {
-        "eslint-config-airbnb": "17.x",
+        "eslint-config-airbnb": "18.x",
         "eslint-plugin-import": "2.x",
         "eslint-plugin-jsx-a11y": "6.x",
         "eslint-plugin-react": "7.x"
