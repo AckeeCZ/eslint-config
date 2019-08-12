@@ -15,11 +15,11 @@
         "eslint-plugin-react": "7.x"
     },
     "bugs": {
-        "url": "https://github.com/AckeeCZ/eslint-config-ackee/issues"
+        "url": "https://github.com/AckeeCZ/eslint-config/issues"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/AckeeCZ/eslint-config-ackee"
+        "url": "https://github.com/AckeeCZ/eslint-config"
     },
     "publishConfig": {
         "access": "public"

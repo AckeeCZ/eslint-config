@@ -1,12 +1,12 @@
 language: node_js
 node_js:
-  - 8
+    - 8
 deploy:
-  provider: npm
-  email: ackeedevelopment@gmail.com
-  skip_cleanup: true
-  api_key:
-    secure: syj8659eWwXIaOmhEMGW6yCBDFxLRQ0ULtdxANttH7O54ILwwWDs90dpX1+khGjJr/6GAgP+JGVX+LviaIpPOiAx4HRBA6uo9euWg5b7DykSV0r6zmsVVRMnJJ3M0yefdGSqSTt0XEc3xBnWW8+J02y1LahqaRCiqDHVrgEn8va9R1tkIaiSndZieqNAxcXYXVRaFKbAV4+BgK2xlae2eC7AMXcgGztXC4W+ZNxQphsVoIiRSLWvi9Uan7a9+ZLfgOVotq2Pzrq5LC1KFBFS89sRz+Ifz/aW5jm+ygHj8o/00RnWiqU+xmAh7TA9eu0kStUeGOAYBDxkutExFkdyzxSlllXxtsK5HqkabN+5kJgas6EoAZsCdw/noWR1Rt61TzQbZ5j4QC7gMrLNUfdD+A2aSw5cu2EcgnjFSFqZx8PLidIx71x5ey/Rc244bwDT+vT33HX6p3dUKIRg8+/Hj2ZpY054dFxO7VewQEBBA1iw8Oq97ffgFz+UOBnnBT3c0JbAqavYpBky91fCq3YsTE6rXUkmmRBS2i/XxTO7WC73qNKGElcrGtfnjXxF/sLDfpjZyI2eWGzGEwIkR5Zrzf06vu6x7yGIlWV4sTtIEAWfPmVaq6yJe9d//4lPnFPpDnDCeSVAgUTGxM/K0rFMWAuCYlkImhiRWEZKPSj7DGU=
-  on:
-    tags: true
-    repo: AckeeCZ/eslint-config-ackee
+    provider: npm
+    email: ackeedevelopment@gmail.com
+    skip_cleanup: true
+    api_key:
+        secure: syj8659eWwXIaOmhEMGW6yCBDFxLRQ0ULtdxANttH7O54ILwwWDs90dpX1+khGjJr/6GAgP+JGVX+LviaIpPOiAx4HRBA6uo9euWg5b7DykSV0r6zmsVVRMnJJ3M0yefdGSqSTt0XEc3xBnWW8+J02y1LahqaRCiqDHVrgEn8va9R1tkIaiSndZieqNAxcXYXVRaFKbAV4+BgK2xlae2eC7AMXcgGztXC4W+ZNxQphsVoIiRSLWvi9Uan7a9+ZLfgOVotq2Pzrq5LC1KFBFS89sRz+Ifz/aW5jm+ygHj8o/00RnWiqU+xmAh7TA9eu0kStUeGOAYBDxkutExFkdyzxSlllXxtsK5HqkabN+5kJgas6EoAZsCdw/noWR1Rt61TzQbZ5j4QC7gMrLNUfdD+A2aSw5cu2EcgnjFSFqZx8PLidIx71x5ey/Rc244bwDT+vT33HX6p3dUKIRg8+/Hj2ZpY054dFxO7VewQEBBA1iw8Oq97ffgFz+UOBnnBT3c0JbAqavYpBky91fCq3YsTE6rXUkmmRBS2i/XxTO7WC73qNKGElcrGtfnjXxF/sLDfpjZyI2eWGzGEwIkR5Zrzf06vu6x7yGIlWV4sTtIEAWfPmVaq6yJe9d//4lPnFPpDnDCeSVAgUTGxM/K0rFMWAuCYlkImhiRWEZKPSj7DGU=
+    on:
+        tags: true
+        repo: AckeeCZ/eslint-config
