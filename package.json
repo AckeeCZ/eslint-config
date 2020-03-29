@@ -9,10 +9,7 @@
     "main": "index.js",
     "license": "MIT",
     "dependencies": {
-        "eslint-config-airbnb": "18.x",
-        "eslint-plugin-import": "2.x",
-        "eslint-plugin-jsx-a11y": "6.x",
-        "eslint-plugin-react": "7.x"
+        "eslint-config-react-app": "^5.2.1"
     },
     "bugs": {
         "url": "https://github.com/AckeeCZ/eslint-config/issues"

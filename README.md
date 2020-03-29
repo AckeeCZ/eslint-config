@@ -4,59 +4,37 @@
 
 # ESLint config Ackee
 
-ESLint rules and settings common for Ackee javascript developers.
+ESLint configuration for Ackee frontend projects.
 
 ## Table of contents
 
--   [How to use](#how-to-use)
-    -   [Backend](#backend)
--   [Dependencies](#dependencies)
--   [Rules](#rules)
+- [How to use](#how-to-use)
+- [Dependencies](#dependencies)
+- [Rules](#rules)
 
 ---
 
 ## <a name="how-to-use"></a>How to use
 
-Install it `yarn add -D @ackee/eslint-config`
+Install it:
+
+```sh
+ yarn add -D @ackee/eslint-config
+```
 
 Create `.eslintrc` in your project:
 
 ```json
 {
-    "env": {
-        "browser": true
-    },
-    "extends": ["ackee"]
+  "extends": ["@ackee/eslint-config"]
 }
 ```
-
-> Note: `env` section is optional, it depends on type of your project.
-
-### <a name="backend"></a>Backend
-
-Using few rules differ for frontend and backend. Since backend developers have some specific needs for
-setting up the linter, there is backend config that extends base ackee config.
-
-```json
-{
-    "extends": ["ackee/backend"]
-}
-```
-
-Overriding rules in backend specific config shouldn't be abused and should be kept at minimum.  
-**We want to unify code style for backend and frontend as much as possible!**
 
 ## <a name="dependencies"></a>Dependencies
 
 **Extends**
 
--   [eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb)
-
-**Uses plugins**
-
--   [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)
--   [eslint-plugin-jsx-a11y](https://github.com/evcohen/eslint-plugin-jsx-a11y)
--   [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)
+- [eslint-config-react-app](https://github.com/AckeeCZ/create-react-app/tree/master/packages/eslint-config-react-app)
 
 ## <a name="rules"></a>Rules
 
