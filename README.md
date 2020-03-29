@@ -6,12 +6,6 @@
 
 ESLint configuration for Ackee frontend projects.
 
-## Table of contents
-
-- [How to use](#how-to-use)
-- [Dependencies](#dependencies)
-- [Rules](#rules)
-
 ---
 
 ## <a name="how-to-use"></a>How to use
