@@ -11,6 +11,9 @@
     "dependencies": {
         "eslint-config-react-app": "^5.2.1"
     },
+    "scripts": {
+        "test": "exit 0"
+    },
     "bugs": {
         "url": "https://github.com/AckeeCZ/eslint-config/issues"
     },
