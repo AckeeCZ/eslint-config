@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## 2.0.0 - Unreleased
+## 2.0.0 - 2020-03-31
 
 Complete structure redesign. The one and only source is `eslint-config-react-app`. `@ackee/eslint-config` is extended from that, then only follow a few custom rules.
 
