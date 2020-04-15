@@ -10,5 +10,6 @@ module.exports = {
         skipShapeProps: true,
       },
     ],
+    "no-console": "warn"
   },
 };
