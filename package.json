@@ -14,11 +14,11 @@
         "babel-eslint": "10.x",
         "eslint": "6.x",
         "eslint-config-react-app": "^5.2.1",
-        "eslint-plugin-flowtype": "3.x",
+        "eslint-plugin-flowtype": "^4.7.0",
         "eslint-plugin-import": "^2.20.2",
         "eslint-plugin-jsx-a11y": "6.x",
         "eslint-plugin-react": "7.x",
-        "eslint-plugin-react-hooks": "1.x"
+        "eslint-plugin-react-hooks": "^3.0.0"
     },
     "scripts": {
         "test": "exit 0"
