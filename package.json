@@ -4,7 +4,7 @@
     "contributors": [
         "Jiří Čermák <jiri.cermak@ackee.cz>"
     ],
-    "version": "2.1.0",
+    "version": "2.2.0",
     "description": "ESLint config for Ackee javascript developers",
     "main": "index.js",
     "license": "MIT",
