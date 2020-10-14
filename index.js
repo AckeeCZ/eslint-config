@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ["react-app", "plugin:import/errors"],
+  extends: ["react-app", "plugin:import/errors", "plugin:compat/recommended"],
   rules: {
     "react/prop-types": ["warn", { ignore: ["styles", "rules"] }],
     "react/no-unused-prop-types": [
