@@ -75,7 +75,7 @@ module.exports = {
     "no-use-before-define": "warn",
 
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/v5.1.1/docs/rules/alt-text.md
-    "jsx-a11y/img-has-alt": "warn",
+    "jsx-a11y/alt-text": "warn",
 
     // https://eslint.org/docs/rules/comma-dangle
     "comma-dangle": [
