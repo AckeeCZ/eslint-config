@@ -2,24 +2,16 @@
     "name": "@ackee/eslint-config",
     "author": "Lukáš Horák <horaklukas@centrum.cz>",
     "contributors": [
-        "Jiří Čermák <jiri.cermak@ackee.cz>"
+        "Jiří Čermák <jiri.cermak@ackee.cz>",
+        "Marek Janča <marek.janca@ackee.cz>"
     ],
     "version": "2.5.0",
     "description": "ESLint config for Ackee javascript developers",
     "main": "index.js",
     "license": "MIT",
-    "dependencies": {
-        "@typescript-eslint/eslint-plugin": "2.x",
-        "@typescript-eslint/parser": "2.x",
-        "babel-eslint": "10.x",
-        "eslint": "6.x",
-        "eslint-config-react-app": "^5.2.1",
-        "eslint-plugin-compat": "^3.8.0",
-        "eslint-plugin-flowtype": "^4.7.0",
-        "eslint-plugin-import": "^2.20.2",
-        "eslint-plugin-jsx-a11y": "6.x",
-        "eslint-plugin-react": "7.x",
-        "eslint-plugin-react-hooks": "4.x"
+    "peerDependencies": {
+        "eslint-config-react-app": "^6.0.0",
+        "eslint-plugin-compat": "^3.9.0"
     },
     "scripts": {
         "test": "exit 0"
