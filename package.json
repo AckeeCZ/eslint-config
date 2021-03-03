@@ -9,8 +9,10 @@
     "description": "ESLint config for Ackee javascript developers",
     "main": "index.js",
     "license": "MIT",
+    "dependencies": {
+        "eslint-config-react-app": "^6.0.0"
+    },
     "peerDependencies": {
-        "eslint-config-react-app": "^6.0.0",
         "eslint-plugin-compat": "^3.9.0"
     },
     "scripts": {
