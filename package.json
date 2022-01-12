@@ -5,7 +5,7 @@
         "Jiří Čermák <jiri.cermak@ackee.cz>",
         "Marek Janča <marek.janca@ackee.cz>"
     ],
-    "version": "3.0.0",
+    "version": "4.0.0",
     "description": "ESLint config for Ackee javascript developers",
     "main": "index.js",
     "license": "MIT",
