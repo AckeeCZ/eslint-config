@@ -116,5 +116,24 @@ module.exports = {
      * REASON: https://ackee.slack.com/archives/C07BZ9K32/p1536067640000100
      */
     "import/prefer-default-export": "off",
-  },
+
+    // https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/order.md
+    "import/order": [
+        "warn",
+        {
+            "newlines-between": "always-and-inside-groups",
+            groups: [
+                "builtin",
+                "external",
+                "internal",
+                ["parent", "sibling"],
+                "index",
+                "object",
+            ],
+        },
+    ],
+
+    // https://eslint.org/docs/rules/arrow-body-style
+    "arrow-body-style": ["warn", "as-needed"],
+    },
 };
