@@ -123,12 +123,9 @@ module.exports = {
         {
             "newlines-between": "always-and-inside-groups",
             groups: [
-                "builtin",
-                "external",
+                ["builtin", "external"],
                 "internal",
-                ["parent", "sibling"],
-                "index",
-                "object",
+                ["parent", "sibling", "index"],
             ],
         },
     ],
