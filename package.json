@@ -10,10 +10,10 @@
     "main": "index.js",
     "license": "MIT",
     "dependencies": {
-        "eslint-config-react-app": "7.0.0"
+        "eslint-config-react-app": "7.0.1"
     },
     "peerDependencies": {
-        "eslint-plugin-compat": "4.0.1"
+        "eslint-plugin-compat": "4.x"
     },
     "scripts": {
         "test": "exit 0"
